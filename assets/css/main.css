@@ -288,7 +288,8 @@ a {
 }
 
 a:hover {
-  color: #e27689;
+  color: #1a1616;
+  font-weight: 400;
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -354,6 +355,7 @@ br.clear {
   padding-left: 10px;
   font-size: 20px;
   width: 650px;
+  line-height: normal;
 }
 
 .sub-desc {
