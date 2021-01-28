@@ -289,7 +289,7 @@ a {
 
 a:hover {
   color: #1a1616;
-  font-weight: 400;
+  /* font-weight: 400; */
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -347,7 +347,7 @@ br.clear {
 
 .description-container {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .project-desc {
@@ -2139,8 +2139,14 @@ button:active,
 .item {
   box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
   /* margin-bottom: 40px; */
-  width: 350px;
+  width: 275px;
   margin: 0 8px;
+  transition: ease-in-out;
+  transition-duration: 200ms;
+}
+
+.item:hover {
+  box-shadow: 0 0.15em 0.5em 0 rgba(0, 0, 0, 0.5);
 }
 
 .item header {
