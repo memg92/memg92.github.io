@@ -390,11 +390,11 @@ br.clear {
 .skills-logos h5 {
   padding: 2px;
 }
-.skills-logos a img {
+.skills-img {
   transition: transform 0.1s;
   border-radius: 3px;
 }
-.skills-logos a img:hover {
+.skills-img:hover {
   transform: scale(1.1);
 }
 
