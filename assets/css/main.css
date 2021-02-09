@@ -391,6 +391,10 @@ br.clear {
   padding: 2px;
 }
 .skills-img {
+  -webkit-transition: transform 0.1s;
+  -moz-transition: transform 0.1s;
+  -ms-transition: transform 0.1s;
+  -o-transition: transform 0.1s;
   transition: transform 0.1s;
   border-radius: 3px;
 }
