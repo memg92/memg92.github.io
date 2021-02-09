@@ -252,7 +252,7 @@ h3 {
 }
 
 header {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 header > p {
@@ -366,7 +366,7 @@ br.clear {
   font-size: 14px;
   height: fit-content;
   margin: 0;
-  background-color: #ecf1f1;
+  background-color: #f5fafa;
   background-image: url("images/overlay.png");
 }
 
@@ -385,6 +385,17 @@ br.clear {
   display: flex;
   padding: 0 10px;
   text-decoration: none;
+}
+
+.skills-logos h5 {
+  padding: 2px;
+}
+.skills-logos img {
+  transition: transform 0.1s;
+  border-radius: 3px;
+}
+.skills-logos img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
